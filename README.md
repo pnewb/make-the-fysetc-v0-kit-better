@@ -18,7 +18,7 @@ Things to change about the kit:
 * part cooling fans seem underpowered
 * no way to mount USB & Ethernet panel mounted extensions
 * Sensorless homing should back off 5mm
-* sensorless homing should have macros to drop current during home and override standard homing procedure
+* sensorless homing should have macros to drop current during home and override standard homing procedure (i actually don't know if this is accurate or not...)
 * don't ship debug configs
 * remove bash history
 * start your image creation from a bare image, no desktop components, no random mp4 files scattered around
@@ -29,4 +29,8 @@ Things to change about the kit:
 * cut out at the bottom of toolhead board cover would put less stress on the hotend power wires
 * ferrule crimping is bad for bed connections, ferrules into wagos should be square crimps according to wago
 * panels are _slightly_ too large
-
+* needs errata documentation for things that are custom about this kit (pinout of toolhead board and catalyst would be nice...can't see catalyst pinout when it's all mounted up)
+* fans for a nevermore v6 included in premium kits?
+* print start macro is anemic, add KAMP?
+* cancel does not remove toolhead from print location and park somewhere safe
+* needs filament sensor macros
